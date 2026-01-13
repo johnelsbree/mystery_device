@@ -1,0 +1,16 @@
+# Ignore all source
+*.py
+
+# Ignore all bytecode by default
+*.pyc
+
+# BUT keep compiled distribution
+!dist/**/*.pyc
+
+# Ignore dev cache
+__pycache__/
+
+# Ignore editor / OS noise
+.DS_Store
+.vscode/
+.venv/
